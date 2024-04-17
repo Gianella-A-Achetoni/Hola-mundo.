@@ -1,4 +1,4 @@
-package  Java.Leccion1.Mundopc;
+package Java.Leccio1.MundoPc;
 
 public class DispositivoEntrada {
 
