@@ -1,16 +1,36 @@
 {
     "version": "0.2.0",
     "configurations": [
-    {
-        "name": "Attach",
-        "port": 9229,
-        "request": "attach",
-        "skipFiles": [
-            "<node_internals>/**"
-        ],
-        "type": "node"
-    },
-        
+        {
+            "type": "java",
+            "name": "TestBloqueInicializador",
+            "request": "launch",
+            "mainClass": "TercerSemestreee.Java.Leccion02.BloquesInicializacion.TestBloqueInicializador",
+            "projectName": "Tecnicatura_4e468716"
+        },
+        {
+            "type": "java",
+            "name": "testEnumeraciones",
+            "request": "launch",
+            "mainClass": "TercerSemestreee.Java.Leccion02.Enumeraciones.testEnumeraciones",
+            "projectName": "Tecnicatura_4e468716"
+        },
+        {
+            "type": "java",
+            "name": "testArgumentosVariables",
+            "request": "launch",
+            "mainClass": "TercerSemestreee.Java.Leccion02.ArgumentosVariables.test.testArgumentosVariables",
+            "projectName": "Tecnicatura_4e468716"
+        },
+        {
+            "name": "Attach",
+            "port": 9229,
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
         {
             "type": "node",
             "request": "launch",
