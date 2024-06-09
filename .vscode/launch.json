@@ -3,6 +3,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "testDefault",
+            "request": "launch",
+            "mainClass": "TercerSemestreee.Java.Leccion03.ModificadoresDeAcceso.Paquete1.testDefault",
+            "projectName": "Tecnicatura_4e468716"
+        },
+        {
+            "type": "java",
+            "name": "testModificadoresDeAcceso",
+            "request": "launch",
+            "mainClass": "TercerSemestreee.Java.Leccion03.ModificadoresDeAcceso.test.testModificadoresDeAcceso",
+            "projectName": "Tecnicatura_4e468716"
+        },
+        {
+            "type": "java",
+            "name": "testAutoBoxingUnBoxing",
+            "request": "launch",
+            "mainClass": "TercerSemestreee.Java.Leccion03.AutoBoxingUnBoxing.testAutoBoxingUnBoxing",
+            "projectName": "Tecnicatura_4e468716"
+        },
+        {
+            "type": "java",
+            "name": "testForEach",
+            "request": "launch",
+            "mainClass": "TercerSemestreee.Java.Leccion03.ForEach.testForEach",
+            "projectName": "Tecnicatura_4e468716"
+        },
+        {
+            "type": "java",
             "name": "TestBloqueInicializador",
             "request": "launch",
             "mainClass": "TercerSemestreee.Java.Leccion02.BloquesInicializacion.TestBloqueInicializador",
