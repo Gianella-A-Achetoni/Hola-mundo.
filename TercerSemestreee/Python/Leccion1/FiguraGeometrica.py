@@ -1,8 +1,18 @@
+from abc import ABC, abstractmethod 
 
-class FiguraGeometrica:
+class FiguraGeometrica(ABC):
     def __init__(self, ancho, alto):
-        self.ancho = ancho
-        self.alto = alto
+        if self._validar_valores(ancho):
+           self.ancho = ancho
+        else :
+            self.ancho = 0
+            print('Valor erroneo para el ancho: {ancho}' )
+           
+        if self._validar_valores(alto):
+            self.alto = alto
+        else:
+            self.alto = 0
+            print("Valor erroneo para el alto: {alto}")
         
     #get and setter ancho
     @property
@@ -11,7 +21,10 @@ class FiguraGeometrica:
     
     @ancho.setter
     def ancho(self, ancho):
-        self._ancho = ancho
+        if self._validar_valores(ancho):
+           self._ancho = ancho
+        else:
+            print('Valor erroneo de ancho: ', ancho)
         
     #get and setter alto
     @property
@@ -20,7 +33,16 @@ class FiguraGeometrica:
     
     @alto.setter
     def alto(self, alto):
-        self._alto = alto
-        
+        if self._validar_valores(alto):
+           self._alto = alto
+        else:
+            print('Valor erroneo de alto: ', alto)
     def __str__(self):
         return f'Figura Geometrica [Alto: {self._alto} y ancho: {self._ancho} ]'
+    
+    @abstractmethod
+    def calcular_area():
+        pass
+    
+    def _validar_valores(self, valor):
+        return True if 0 < valor < 10 else False
