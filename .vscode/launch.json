@@ -3,6 +3,90 @@
     "configurations": [
         {
             "type": "java",
+            "name": "calculadora",
+            "request": "launch",
+            "mainClass": "TercerSemestreee.Java.Leccion09.CalculadoraUTN.calculadora",
+            "projectName": "Tecnicatura_4e468716"
+        },
+        {
+            "type": "java",
+            "name": "Calculadorautn1",
+            "request": "launch",
+            "mainClass": "TercerSemestreee.Java.Leccion09.calculadoraUTN.Calculadorautn1",
+            "projectName": "Tecnicatura_4e468716"
+        },
+        {
+            "type": "java",
+            "name": "Calculadorautn",
+            "request": "launch",
+            "mainClass": "TercerSemestreee.Java.Leccion09.calculadoraUTN.Calculadorautn",
+            "projectName": "Tecnicatura_4e468716"
+        },
+        {
+            "type": "java",
+            "name": "Calculadorautn",
+            "request": "launch",
+            "mainClass": "TercerSemestreee.Java.Leccion09.clculadoraUTN.Calculadorautn",
+            "projectName": "Tecnicatura_4e468716"
+        },
+        {
+            "type": "java",
+            "name": "testExcepciones",
+            "request": "launch",
+            "mainClass": "TercerSemestreee.Java.Leccion08.ManejoDeExcepciones1.test.testExcepciones",
+            "projectName": "Tecnicatura_4e468716"
+        },
+        {
+            "type": "java",
+            "name": "testJavaBeans",
+            "request": "launch",
+            "mainClass": "TercerSemestreee.Java.Leccion07.JavaBeans.test.testJavaBeans",
+            "projectName": "Tecnicatura_4e468716"
+        },
+        {
+            "type": "java",
+            "name": "TestInterfaces",
+            "request": "launch",
+            "mainClass": "TercerSemestreee.Java.leccion06.interfaces.test.TestInterfaces",
+            "projectName": "Tecnicatura_4e468716"
+        },
+        {
+            "type": "java",
+            "name": "TestAbstracta",
+            "request": "launch",
+            "mainClass": "TercerSemestreee.Java.Leccion05.claseAbstracta.test.TestAbstracta",
+            "projectName": "Tecnicatura_4e468716"
+        },
+        {
+            "type": "java",
+            "name": "testclassobject",
+            "request": "launch",
+            "mainClass": "TercerSemestreee.Java.Leccion05.claseObject.conversionObjetos.test.testclassobject",
+            "projectName": "Tecnicatura_4e468716"
+        },
+        {
+            "type": "java",
+            "name": "testconvercion",
+            "request": "launch",
+            "mainClass": "TercerSemestreee.Java.Leccion05.conversionObjetos.test.testconvercion",
+            "projectName": "Tecnicatura_4e468716"
+        },
+        {
+            "type": "java",
+            "name": "test_instanceOff",
+            "request": "launch",
+            "mainClass": "TercerSemestreee.Java.Leccion04.InstanceOff.test.test_instanceOff",
+            "projectName": "Tecnicatura_4e468716"
+        },
+        {
+            "type": "java",
+            "name": "test_sobreescritura",
+            "request": "launch",
+            "mainClass": "TercerSemestreee.Java.Leccion04.Sobreescritura.test.test_sobreescritura",
+            "projectName": "Tecnicatura_4e468716"
+        },
+        {
+            "type": "java",
             "name": "testDefault",
             "request": "launch",
             "mainClass": "TercerSemestreee.Java.Leccion03.ModificadoresDeAcceso.Paquete1.testDefault",

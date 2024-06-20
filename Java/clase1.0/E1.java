@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class E1 {
   public static void main(String[] args) {
-     Scanner input = new Scanner (System.in); 
+      Scanner input = new Scanner (System.in); 
       System.out.println("Digite 3 calificaciones: ");
       String n1 = input.nextLine();
       String n2 = input.nextLine();
