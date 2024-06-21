@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ListadoPersonasApp",
+            "request": "launch",
+            "mainClass": "TercerSemestreee.Java.Leccion10.Listarpersonas.ListadoPersonasApp",
+            "projectName": "Tecnicatura_4e468716"
+        },
+        {
+            "type": "java",
             "name": "calculadora",
             "request": "launch",
             "mainClass": "TercerSemestreee.Java.Leccion09.CalculadoraUTN.calculadora",
